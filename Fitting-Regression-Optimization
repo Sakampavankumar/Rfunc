@@ -1,0 +1,11 @@
+#Fitting / regression / optimisation
+lm		# Fit liner model
+glm		# Fit generalised linear model
+nls		# non-linear (weighted) least-squares fitting
+lqs		# "library(MASS)" resistant regression
+
+optim		# general-purpose optimisation
+optimize	# 1-dimensional optimisation
+constrOptim	# Constrained optimisation
+nlm		# Non-linear minimisation
+nlminb		# More robust (non-)constrained non-linear minimisation
