@@ -1,0 +1,24 @@
+#Statistical
+help(package=stats)   # List all stats functions
+
+?Chisquare            # Help on chi-squared distribution functions
+?Poisson              # Help on Poisson distribution functions
+help(package=survival) # Survival analysis
+
+cor.test()            # Perform correlation test
+cumsum(); cumprod(); cummin(); cummax()   # Cumuluative functions for vectors
+density(x)            # Compute kernel density estimates
+ks.test()             # Performs one or two sample Kolmogorov-Smirnov tests
+loess(), lowess()     # Scatter plot smoothing
+mad()                 # Calculate median absolute deviation
+mean(x), weighted.mean(x), median(x), min(x), max(x), quantile(x)
+rnorm(), runif()  # Generate random data with Gaussian/uniform distribution
+splinefun()           # Perform spline interpolation
+smooth.spline()       # Fits a cubic smoothing spline
+sd()                  # Calculate standard deviation
+summary(x)            # Returns a summary of x: mean, min, max etc.
+t.test()              # Student's t-test
+var()                 # Calculate variance
+sample()              # Random samples & permutations
+ecdf()                # Empirical Cumulative Distribution Function
+qqplot()              # quantile-quantile plot
