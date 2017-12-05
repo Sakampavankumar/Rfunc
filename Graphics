@@ -1,0 +1,24 @@
+#Graphics
+help(package=graphics) # List all graphics functions
+
+plot()                # Generic function for plotting of R objects
+par()                 # Set or query graphical parameters
+curve(5*x^3,add=T)    # Plot an equation as a curve
+points(x,y)           # Add another set of points to an existing graph
+arrows()              # Draw arrows [see errorbar script]
+abline()              # Adds a straight line to an existing graph
+lines()               # Join specified points with line segments
+segments()            # Draw line segments between pairs of points
+hist(x)               # Plot a histogram of x
+pairs()               # Plot matrix of scatter plots
+matplot()             # Plot columns of matrices
+
+?device               # Help page on available graphical devices
+postscript()          # Plot to postscript file
+pdf()                 # Plot to pdf file
+png()                 # Plot to PNG file
+jpeg()                # Plot to JPEG file
+X11()                 # Plot to X window
+persp()               # Draws perspective plot
+contour()             # Contour plot
+image()               # Plot an image
