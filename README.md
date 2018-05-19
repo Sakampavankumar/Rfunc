@@ -1,2 +1,2 @@
-# Master-R-Best-Functions
-This repository focuses on learning R with useful functions. I will also be adding examples to it. 
+# Useful R funcions
+This repository focuses on learning useful functions in R, which will save time  
